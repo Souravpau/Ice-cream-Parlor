@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Shop</title>
+    <script src="calculation.js"></script>
+    <link rel="stylesheet" href="parler.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">
+        <h1>Welcome to IceCream parlor</h1>
+    </div>
+        <form id="form">
+            <div  class="elements1" class="flavour" >
+                Flavours:
+            </div>
+            <select id="flavour" class="elements2">
+                <option value="vanilla">vanilla   RS.30</option>
+                <option value="Chocolate">Chocolate  RS.40</option>
+                <option value="strawberry">strawberry  RS.20</option>
+            </select>
+
+            <div  class="elements1" >
+                Hold:
+            </div>
+            <select id="hold" class="elements2">
+                <option value="cup">cup  Rs.10</option>
+                <option value="Glass">Glass  Rs.20</option>
+                <option value="pot">pot  Rs.25</option>
+
+            </select>
+
+            <div class="elements1">
+                Quantity:
+            </div>
+            <select id="quantity" class="elements2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </form>
+        <div class="btn">
+
+            <button type="button" id="btn" value="submit" onclick="js()">order now</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/* css Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+  color: #b62a96;
+}
+img{
+    opacity: 0.4;
+}
+/* Container div */
+.container {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/73/28/76/1000_F_473287612_Lg3ulJULenkiVQ3qNnJCEubEiuH3qvZx.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    /* height: 450px; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    margin:80px 0 0 0;
+    font-size: large;
+}
+#form{
+ 
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+.flavour{
+    width: 170px;
+}
+
+
+
+/* button  */
+div.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+    #btn {
+        height: 65px;
+        width: 140px;
+        padding: 5px 23px;
+        border: 2px solid #ffffff;
+        background-color: #a52a2a;
+        color: #ffffff;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 19px;
+        cursor: pointer;
+    }
+
+    /* Unary classes */
+    .elements1{
+        color: rgb(51, 117, 153);
+        font-size: 3rem;
+        margin: 30px 0 0 34px;
+        display: inline-block;
+    }
+    .elements2{
+        width: 260px;
+        margin: 33px 98px 0 8px;
+        font-size: 24px;
+        border-radius: 10px;
+        background-color: rgb(172, 167, 167);
+        font-family: Arial, Helvetica, sans-serif;
+        height: 51px;
+    }
